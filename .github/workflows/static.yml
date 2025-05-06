@@ -37,9 +37,9 @@ jobs:
 
       - name: Convert notebook to HTML
         run: |
-          jupyter nbconvert --to html Project2.ipynb
+          jupyter nbconvert --to html Project_2.ipynb
           mkdir output
-          mv Project2.html output/index.html
+          mv Project_2.html output/index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
